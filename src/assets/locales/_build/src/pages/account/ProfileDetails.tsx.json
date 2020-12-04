@@ -1,0 +1,26 @@
+{
+  "The information can be edited": {
+    "origin": [
+      [
+        "src/pages/account/ProfileDetails.tsx",
+        52
+      ]
+    ]
+  },
+  "Profile": {
+    "origin": [
+      [
+        "src/pages/account/ProfileDetails.tsx",
+        52
+      ]
+    ]
+  },
+  "Save": {
+    "origin": [
+      [
+        "src/pages/account/ProfileDetails.tsx",
+        109
+      ]
+    ]
+  }
+}

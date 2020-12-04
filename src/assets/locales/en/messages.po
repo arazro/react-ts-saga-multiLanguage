@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-11-18 19:58+0330\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/404/index.tsx:26
+msgid "404: The page you are looking for isn’t here"
+msgstr "404: The page you are looking for isn’t here"
+
+#: src/pages/user/userListView/Toolbar.tsx:45
+msgid "Add customer"
+msgstr "Add customer"
+
+#: src/pages/auth/LoginView.tsx:80
+msgid "Change Language"
+msgstr "Change Language"
+
+#: src/pages/user/userListView/Toolbar.tsx:40
+msgid "Export"
+msgstr "Export"
+
+#: src/pages/user/userListView/Toolbar.tsx:35
+msgid "Import"
+msgstr "Import"
+
+#: src/pages/user/userListView/Results.tsx:94
+msgid "Last Login"
+msgstr "Last Login"
+
+#: src/pages/user/userListView/Results.tsx:74
+msgid "Name"
+msgstr "Name"
+
+#: src/pages/user/userListView/Results.tsx:89
+msgid "Person ID"
+msgstr "Person ID"
+
+#: src/pages/account/ProfileDetails.tsx:52
+msgid "Profile"
+msgstr "Profile"
+
+#: src/pages/account/ProfileDetails.tsx:109
+msgid "Save"
+msgstr "Save"
+
+#: src/pages/auth/LoginView.tsx:51
+msgid "Sign in"
+msgstr "Sign in"
+
+#: src/pages/auth/LoginView.tsx:74
+msgid "Sign in now"
+msgstr "Sign in now"
+
+#: src/pages/user/userListView/Results.tsx:84
+msgid "Status"
+msgstr "Status"
+
+#: src/pages/user/userListView/Results.tsx:99
+msgid "Superuser"
+msgstr "Superuser"
+
+#: src/pages/account/ProfileDetails.tsx:52
+msgid "The information can be edited"
+msgstr "The information can be edited"
+
+#: src/pages/user/userListView/Results.tsx:79
+msgid "Type"
+msgstr "Type"
+
+#: src/pages/account/Profile.tsx:54
+msgid "Upload picture"
+msgstr "Upload picture"
+
+#: src/pages/404/index.tsx:29
+msgid "You either tried some shady route or you came here by mistake. Whichever it is, try using the navigation"
+msgstr "You either tried some shady route or you came here by mistake. Whichever it is, try using the navigation"
+
+#: src/pages/auth/LoginView.tsx:56
+msgid "login with email address"
+msgstr "login with email address"
+
+#: src/pages/layout/DashboardLayout/TopBar.tsx:56
+msgid "پنل سیستم جامع"
+msgstr "Pay Panel"

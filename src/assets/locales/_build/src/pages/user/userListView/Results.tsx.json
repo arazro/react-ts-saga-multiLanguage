@@ -1,0 +1,50 @@
+{
+  "Name": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        74
+      ]
+    ]
+  },
+  "Type": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        79
+      ]
+    ]
+  },
+  "Status": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        84
+      ]
+    ]
+  },
+  "Person ID": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        89
+      ]
+    ]
+  },
+  "Last Login": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        94
+      ]
+    ]
+  },
+  "Superuser": {
+    "origin": [
+      [
+        "src/pages/user/userListView/Results.tsx",
+        99
+      ]
+    ]
+  }
+}

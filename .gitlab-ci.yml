@@ -1,0 +1,79 @@
+stages:
+  - npm-install
+  - test
+  - build
+  - docker-clear
+  - deploy
+
+npm-install:
+  stage: npm-install
+  only:
+    - master
+  image: node
+  script:
+    - echo "Start npm-install"
+    - npm install
+    - echo "npm-install successfully!"
+  artifacts:
+    expire_in: 3 hour
+    paths:
+      - node_modules/
+
+
+test:
+  stage: test
+  only:
+    - master
+  image: node
+  script:
+    - echo "Testing App"
+    - CI=true npm test
+    - echo "Test successfully!"
+
+
+build:
+  stage: build
+  only:
+    - master
+  image: node
+  script:
+    - echo "Start building App"
+    - npm build
+    - echo "Build successfully!"
+  artifacts:
+    expire_in: 3 hour
+    paths:
+      - build
+
+
+
+docker-clear:
+  stage: docker-clear
+  only:
+    - master
+
+  before_script:
+    - docker info
+
+  script:
+    - echo "Clear to docker"
+    - docker stop pypanel_conteiner
+    - docker image rm pypanel:latest -f
+    - echo "Clear"
+  allow_failure: true
+
+
+
+deploy:
+  stage: deploy
+  only:
+    - master
+
+  before_script:
+    - docker info
+
+  script:
+    - echo "Deploying to docker"
+    - docker build --pull --no-cache -t pypanel:latest .
+    - docker run  -itd  --rm -v ${PWD}:/app -v /app/node_modules  -p 1033:3000  -e CHOKIDAR_USEPOLLING=true --name pypanel_conteiner pypanel:latest  
+    - echo "Deployed"

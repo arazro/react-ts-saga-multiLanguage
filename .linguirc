@@ -1,0 +1,6 @@
+{
+   "localeDir": "src/assets/locales/",
+   "srcPathDirs": ["src/"],
+   "format": "po",
+   "sourceLocale": "fa"
+}

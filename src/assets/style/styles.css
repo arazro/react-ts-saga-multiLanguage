@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url(../fonts/iransans.eot?#) format("eot"),
+    url(../fonts/iransans.woff) format("woff"),
+    url(../fonts/iransans.ttf) format("truetype");
+  
+  }
+  @font-face {
+    font-family: trebuchet;
+    src: url(../fonts/trebuchet.15ae7724.woff) format('woff');
+    font-display: swap;
+  }
